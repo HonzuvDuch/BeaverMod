@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 public class BeaverMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "beaver";
+    public static final String MODID = "beavermod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -56,6 +56,9 @@ public class BeaverMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.STEEL);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModItems.BeaverTail);
         }
     }
 

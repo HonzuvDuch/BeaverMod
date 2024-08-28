@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "BeaverMod:item/steelFromFlint"
+    "layer0": "beavermod:item/steelfromflint"
   }
 }

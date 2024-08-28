@@ -13,7 +13,10 @@ public class ModItems {
 
     //Place for adding new items
 
-    public static final RegistryObject<Item> STEEL = ITEMS.register("steelFromFlint",
+    public static final RegistryObject<Item> STEEL = ITEMS.register("steelfromflint",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BeaverTail = ITEMS.register("beavertail",
             () -> new Item(new Item.Properties()));
 
     //__________________________
